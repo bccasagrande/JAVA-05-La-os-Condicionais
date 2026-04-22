@@ -1,0 +1,34 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro A, B, C, soma
+
+        escreva("Digite o número A: ")
+        leia(A)
+
+        escreva("Digite o número B: ")
+        leia(B)
+
+        escreva("Digite o número C: ")
+        leia(C)
+
+        soma = A + B
+
+        se (soma > C)
+        {
+            escreva(A, " + ", B, " = ", soma, " > ", C, "\n")
+            escreva("A Soma de A + B é Maior do que C")
+        }
+        senao se (soma < C)
+        {
+            escreva(A, " + ", B, " = ", soma, " < ", C, "\n")
+            escreva("A Soma de A + B é Menor do que C")
+        }
+        senao
+        {
+            escreva(A, " + ", B, " = ", soma, " = ", C, "\n")
+            escreva("A Soma de A + B é Igual a C")
+        }
+    }
+}
